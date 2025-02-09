@@ -11,10 +11,10 @@ const Contact = () => {
             <div className='relative h-full rounded-3xl w-full '>
 
                 <Image src={Terminal} alt="Loading..." className="z-3 w-full h-full object-center" priority />
-                <div className='z-5 top-0 left-0 px-16 py-20 w-full h-full absolute text-white'>
+                <div className='z-5 top-0 left-0 px-16 py-16 w-full h-full absolute text-white sm:py-20'>
                     <div className='z-5 xl:px-80 md:px-10 '>
-                        <h1 className='text-4xl font-extrabold mb-2'>Let&lsquo;s talk</h1>
-                        <h1 className='text-xl font-medium mb-2'>Whether you’re looking to build a new website, improve your existing platform, or bring a unique project to life, I’m here to help.</h1>
+                        <h1 className='text-2xl font-extrabold mb-2 sm:text-4xl'>Let&lsquo;s talk</h1>
+                        <h1 className='text-lg font-medium mb-2 sm:text-xl'>Whether you’re looking to build a new website, improve your existing platform, or bring a unique project to life, I’m here to help.</h1>
                         <div className='flex flex-col gap-y-4 mt-5'>
                             <label className='text-xl font-medium xl:my-2'>Full Name</label>
                             <input type='text' placeholder='Ex. John Doe' className='bg-transparent border-b-2 border-white py-2 px-4 focus:outline-none focus:border-blue-500' />

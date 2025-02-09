@@ -17,13 +17,13 @@ const Hero = () => {
                     transition={{ duration: 0.8 }}
                     className="text-center"
                 >
-                    <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6">
+                    <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white md:mb-6 mb-1">
                         Pioneering the Future of
                         <span className="block mt-2">
                             <HyperText>Digital Innovation</HyperText>
                         </span>
                     </h1>
-                    <p className="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-8">
+                    <p className="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto md:mb-8 mb-2">
                         We transform visionary ideas into groundbreaking technological solutions, pushing the boundaries of what&apos;s possible.
                     </p>
                     
@@ -37,7 +37,7 @@ const Hero = () => {
                     initial={{ opacity: 0, y: 40 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.4 }}
-                    className="absolute bottom-12 flex gap-8 md:gap-16"
+                    className="absolute bottom-12 flex gap-8 md:gap-16 mt-10"
                 >
                     <div className="flex flex-col items-center text-white">
                         <Circuit className="w-8 h-8 mb-2" />
