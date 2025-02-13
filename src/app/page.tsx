@@ -14,9 +14,9 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <Hero />
       {!open && (
         <>
+          <Hero />
           <Bento />
           <Contact />
           <Footer />
