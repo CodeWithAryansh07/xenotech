@@ -9,7 +9,7 @@ import { BrainCircuit as Circuit, Cpu, Database } from 'lucide-react'
 
 const Hero = () => {
     return (
-        <div className="bg-[#070707] relative flex h-[calc(100vh-96px)] w-full flex-col overflow-hidden select-none">
+        <div className="bg-[#101010] relative flex h-[calc(100vh-96px)] w-full flex-col overflow-hidden select-none">
             <div className="relative z-3 flex flex-col items-center justify-center h-full px-6 md:px-20">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
