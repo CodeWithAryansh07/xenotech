@@ -35,7 +35,7 @@ const Navbar = () => {
     };
 
     return (
-        <div className='flex flex-row justify-between items-center select-none p-4 bg-[#090909] h-24 w-full text-white px-14 tracking-widest border-b-2'>
+        <div className='flex flex-row justify-between items-center select-none p-4 bg-[#0d0d0d] h-24 w-full text-white px-14 max-[650px]:px-7 tracking-widest border-b-2'>
             <div className='font-bold text-3xl '>XenoTech</div>
             <div className='flex font-bold text-2xl hover:underline cursor-pointer' onClick={handleClick}>
                 Menu

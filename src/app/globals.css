@@ -10,6 +10,13 @@
 
 body {
   font-family: "Handlee", Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-user-select: none;
+  user-select: none;
+  /* overflow-x: hidden; */
+  overflow-y: hidden;
+  overflow-y: scroll;
+  /* overflow-y: hidden; */
 }
 
 html, body {
@@ -17,10 +24,11 @@ html, body {
   width: 100%;
   margin: 0;
   padding: 0;
-  background-color: #090909;
+  background-color: #111111;
 }
 
 @layer utilities {
+
   .c-space {
     @apply sm:px-10 px-5;
   }

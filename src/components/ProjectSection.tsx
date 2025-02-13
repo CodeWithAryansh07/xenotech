@@ -1,12 +1,16 @@
 /* eslint-disable @next/next/no-img-element */
 "use client"
 import { useRouter } from "next/navigation"; // Import useRouter from next/router
-// import { useState } from "react";
+import { useEffect } from "react";
 import { CardSpotlight } from "@/components/ui/card-spotlight";
 import { ProjectData } from "@/constants";
 
 export function ProjectSection() {
     const router = useRouter();
+
+    useEffect(() => {
+        document.body.style.backgroundColor = "#070707";
+    })
 
     const handleSeeMore = (index: number) => {
         // Navigate to a dynamic route passing the project index as a parameter
