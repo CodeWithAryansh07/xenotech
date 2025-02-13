@@ -23,7 +23,7 @@ export function ProjectSection() {
                             key={index}
                             className="h-[400px] max-[1250px]:w-[400px] w-96 text-white p-5"
                         >
-                            <div className="flex min-h-[250px] max-h-[250px] bg-green-200 mb-2">
+                            <div className="flex min-h-[250px] max-h-[250px] mb-2">
                                 <img
                                     src={`https://picsum.photos/200/300?random=${index}`}
                                     alt="Project"
