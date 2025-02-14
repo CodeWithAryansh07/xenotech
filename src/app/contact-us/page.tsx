@@ -114,7 +114,7 @@ const Page = () => {
                                     <Phone className="w-6 h-6 text-white mt-1" />
                                     <div>
                                         <h3 className="font-semibold text-white">Phone</h3>
-                                        <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                                        <p className="text-muted-foreground">+91 80841 26115</p>
                                     </div>
                                 </div>
 

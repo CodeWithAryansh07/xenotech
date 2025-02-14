@@ -1,3 +1,24 @@
+export const TeamMembers = [
+    {
+        id: 1,
+        name: "Aryansh Rajput",
+        role: "Full Stack Developer",
+        image: "https://picsum.photos/200/300?random=1",
+    },
+    {
+        id: 2,
+        name: "Kush Patel",
+        role: "Backend Developer",
+        image: "https://picsum.photos/200/300?random=2",
+    },
+    {
+        id: 3,
+        name: "Shivanand Singh",
+        role: "AI/ML Engineer",
+        image: "https://picsum.photos/200/300?random=3",
+    }
+]
+
 export const ProjectData = [
     {
         id: 1,
