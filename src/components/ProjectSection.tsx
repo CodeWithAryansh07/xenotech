@@ -35,7 +35,7 @@ export function ProjectSection() {
                                 />
                             </div>
                             <h1 className="text-xl font-bold relative z-20 mt-2 text-white">
-                                Project Section {index + 1}
+                                {project.title}
                             </h1>
                             <p className="text-neutral-200 mt-4 relative z-20">
                                 {`${previewText}...`}
